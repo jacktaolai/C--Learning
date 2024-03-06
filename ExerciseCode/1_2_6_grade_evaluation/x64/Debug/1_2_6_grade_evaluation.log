@@ -1,0 +1,5 @@
+﻿  1_2_6_grade_evaluation.cpp
+D:\C++Learning\ExerciseCode\1_2_6_grade_evaluation\1_2_6_grade_evaluation.cpp(29,12): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+D:\C++Learning\ExerciseCode\1_2_6_grade_evaluation\1_2_6_grade_evaluation.cpp(32,17): warning C4804: “<”: 在操作中使用类型“bool”不安全
+D:\C++Learning\ExerciseCode\1_2_6_grade_evaluation\1_2_6_grade_evaluation.cpp(35,16): warning C4804: “<”: 在操作中使用类型“bool”不安全
+  1_2_6_grade_evaluation.vcxproj -> D:\C++Learning\ExerciseCode\1_2_1the_sum_of_one_to_ten\x64\Debug\1_2_6_grade_evaluation.exe
