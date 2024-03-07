@@ -3,7 +3,7 @@
 * All rights reserved.
 *
 * 文件名称：1_2_7_fibonacci_equence
-* 摘 要：感觉选择的图形求解面积
+* 摘 要：输出斐波那契数列
 *
 * 当前版本：1.0
 * 作 者：赖鑫涛
