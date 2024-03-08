@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_2_7_fibonacci_equence", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_2_8_goldbach_conjecture", "..\1_2_8_goldbach_conjecture\1_2_8_goldbach_conjecture.vcxproj", "{D620C842-ADDF-4D8A-9BF9-A0763894A632}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_2_9_multiplication_table", "..\1_2_9_multiplication_table\1_2_9_multiplication_table.vcxproj", "{01366AE0-AEFA-4452-91A0-5C444FE06996}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{D620C842-ADDF-4D8A-9BF9-A0763894A632}.Release|x64.Build.0 = Release|x64
 		{D620C842-ADDF-4D8A-9BF9-A0763894A632}.Release|x86.ActiveCfg = Release|Win32
 		{D620C842-ADDF-4D8A-9BF9-A0763894A632}.Release|x86.Build.0 = Release|Win32
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Debug|x64.ActiveCfg = Debug|x64
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Debug|x64.Build.0 = Debug|x64
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Debug|x86.ActiveCfg = Debug|Win32
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Debug|x86.Build.0 = Debug|Win32
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Release|x64.ActiveCfg = Release|x64
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Release|x64.Build.0 = Release|x64
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Release|x86.ActiveCfg = Release|Win32
+		{01366AE0-AEFA-4452-91A0-5C444FE06996}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
