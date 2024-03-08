@@ -5,9 +5,9 @@
 * 文件名称：1_2_3_shape_area_calculator.cpp
 * 摘 要：根据选择的图形求解面积
 *
-* 当前版本：1.0
+* 当前版本：2.0
 * 作 者：赖鑫涛
-* 完成日期：2024年3月6日
+* 完成日期：2024年3月8日
 * e-mail:jacktaolai@cug.edu.cn
 *
 * 取代版本：1.0
@@ -29,10 +29,14 @@ int main()
 		switch (choice) {
 			//求解三角形面积
 		case 'T': {//用单引号不要双引号！
-			cout << "请输入三角形三边长a,b,c,用空格隔开";
 			float a = 0, b = 0, c = 0;
-			//注意如果int a,b,c=0;则只有c=0,考虑到实际情况在这里用float
-			cin >> a >> b >> c;
+			
+			do
+			{
+				cout << "请输入三角形三边长a,b,c,用空格隔开";
+				//注意如果int a,b,c=0;则只有c=0,考虑到实际情况在这里用float
+				cin >> a >> b >> c;
+			} while (a <= 0 || b <= 0 || c <= 0 || (a + b <= c) || (a + c <= b) || (b + c <= a));
 			//一开始使用这种方法输入是错的cin >> a, b, a;
 			float area = 0;
 			float s = 0;
