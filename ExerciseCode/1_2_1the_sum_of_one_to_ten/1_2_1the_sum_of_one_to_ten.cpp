@@ -5,7 +5,7 @@
 * 文件名称：1_2_1the_sum_of_one_to_ten.cpp
 * 摘 要：求一到十的和
 *
-* 当前版本：1.0
+* 当前版本：2.0
 * 作 者：赖鑫涛
 * 完成日期：2024年3月5日
 * e-mail:jacktaolai@cug.edu.cn
@@ -17,19 +17,17 @@
 
 #include <iostream>
 using namespace std;
-
-int main()
-{
+int main() {
 	cout << "使用do while方法\n";
-	int i = 1, sum = 0;//定义参数，sum为所求，i为自增变量
+	int i = 1, sum = 0;  //定义参数，sum为所求，i为自增变量
 	do {
 		sum = sum + i;
 		i++;
 	} while (i <= 10);
-	cout << sum << endl;//在屏幕上输出结果
-
+	cout << sum << endl;  //在屏幕上输出结果
 	cout << "使用 for 方法\n";
-	for (int i = 1, sum = 0; i <= 10; i++)
+	for (int i = 1, sum = 0; i <= 10; i++) {
 		sum = sum + i;
+	}
 	cout << sum << endl;
 }

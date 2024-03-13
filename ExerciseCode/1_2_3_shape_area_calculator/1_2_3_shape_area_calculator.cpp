@@ -5,34 +5,30 @@
 * 文件名称：1_2_3_shape_area_calculator.cpp
 * 摘 要：根据选择的图形求解面积
 *
-* 当前版本：2.0
+* 当前版本：3.0
 * 作 者：赖鑫涛
 * 完成日期：2024年3月8日
 * e-mail:jacktaolai@cug.edu.cn
 *
-* 取代版本：1.0
+* 取代版本：2.0
 * 原作者 ：赖鑫涛
 * 完成日期：2024年3月6日
 *********************************************/
+//TODO: 处理不合理的数据输入
 
 #include <iostream>
 using namespace std;
-
-int main()
-{
+int main() {
 	char choice = '0';
-	do
-	{
+	do {
 		cout << "请选择图形：T(riangle)、C(ircle)、R(ectangle)、S(quare)，"
 			"输入大写首字母后回车\n";
 		cin >> choice;
 		switch (choice) {
-			//求解三角形面积
-		case 'T': {//用单引号不要双引号！
+			    //求解三角形面积
+		case 'T': {  //用单引号不要双引号！
 			float a = 0, b = 0, c = 0;
-			
-			do
-			{
+			do {
 				cout << "请输入三角形三边长a,b,c,用空格隔开";
 				//注意如果int a,b,c=0;则只有c=0,考虑到实际情况在这里用float
 				cin >> a >> b >> c;
@@ -43,10 +39,8 @@ int main()
 			s = (a + b + c) / 2;
 			area = sqrt(s * (s - a) * (s - b) * (s - c));
 			cout << "三角形面积为" << area << endl;
-			break;//一定不要忘记break;
-			//基本功能已经实现了，但是面对不合法的输入仍不能加以判断
+			break;  //一定不要忘记break;
 		}
-
 				//求解圆面积
 		case 'C': {
 			cout << "请输入圆半径r";
@@ -58,7 +52,6 @@ int main()
 			//注意C++里r^2并非指平方，而是异或(两数不同为1)
 			break;
 		}
-
 				//求解长方形面积
 		case 'R': {
 			cout << "请输入长方形边长a,b用空格隔开";
@@ -69,7 +62,6 @@ int main()
 			cout << "长方形面积为" << area << endl;
 			break;
 		}
-
 				//求解正方形面积
 		case 'S': {
 			cout << "请输入正方形边长a";
@@ -80,13 +72,13 @@ int main()
 			cout << "正方形面积为" << area << endl;
 			break;
 		}
-
 				//对无效输入做提示
-		default:
+		default: {
 			cout << "您的选择无效";
+			break;
+		}
 		}
 	} while (choice != 'T' && choice != 'C' && choice != 'R' && choice != 'S');
 	//遇到了第一个错误，choice定义在循环体里导致此处再引用时未被定义
-
-
+	return 0;
 }
