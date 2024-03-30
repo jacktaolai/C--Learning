@@ -1,1 +1,2 @@
 D:\C++\hello world\x64\Debug\hello world.exe
+D:\C++Learning\hello world\x64\Debug\p60 2-11.exe
